@@ -32,19 +32,19 @@ Route::get('/about-us', [PageController::class, 'viewAboutUs'])->name('view.abou
 Route::get('/book-service', [PageController::class, 'viewBookService'])->name('view.book.service');
 Route::post('/book-service', [BookingController::class, 'bookService']);
 
-Route::get('/services/web-development', [PageController::class, 'viewWebDevelopment'])->name('view.web.development');
-Route::get('/services/mobile-app-development', [PageController::class, 'viewMobileAppDevelopment'])->name('view.mobile.app.development');
-Route::get('/services/software-development', [PageController::class, 'viewSoftwareDevelopment'])->name('view.software.development');
-Route::get('/services/ui-ux-design', [PageController::class, 'viewUiUxDesign'])->name('view.ui.ux.design');
-Route::get('/services/digital-marketing', [PageController::class, 'viewDigitalMarketing'])->name('view.digital.marketing');
-Route::get('/services/seo-services', [PageController::class, 'viewSeoServices'])->name('view.seo.services');
-
+Route::get('/services/annual-accounts', [PageController::class, 'viewAnnualAccounts'])->name('view.annual.accounts');
+Route::get('/services/bookkeeping', [PageController::class, 'viewBookkeeping'])->name('view.book.keeping');
+Route::get('/services/business-planning', [PageController::class, 'viewBusinessPlanning'])->name('view.business.planning');
+Route::get('/services/cashflow-forecasts', [PageController::class, 'viewCashflowForecasts'])->name('view.cashflow.forecasts');
+Route::get('/services/company-secretarial-services', [PageController::class, 'viewCompanySecretarialServices'])->name('view.company.secretarial.services');
+Route::get('/services/self-assessment', [PageController::class, 'viewSelfAssessment'])->name('view.self.assessment');
+Route::get('/services/personal-tax-planning', [PageController::class, 'viewPersonalTaxPlanning'])->name('view.personal.tax.planning');
+Route::get('/services/wealth-management', [PageController::class, 'viewWealthManagement'])->name('view.wealth.management');
 
 Route::post('/subscribe-newsletter', [NewsLetterSubscriptionController::class, 'subscribeNewsletter'])->name('subscribe.newsletter');
 
-Route::get('/portfolios', [PageController::class, 'viewPortfolios'])->name('view.portfolios');
-Route::get('/portfolios/{id}', [PageController::class, 'viewSingleProject'])->name('view.portfolio.single');
-Route::get('/rope-access-cleaning', [PageController::class, 'viewRopeAccessCleaning'])->name('view.rope.access.cleaning');
+Route::get('/privacy-policy', [PageController::class, 'viewPrivacyPolicy'])->name('view.privacy.policy');
+Route::get('terms-and-conditions', [PageController::class, 'viewTermsConditions'])->name('view.terms.conditions');
 
 
 Route::middleware('auth')->prefix('admin')->group(function () {

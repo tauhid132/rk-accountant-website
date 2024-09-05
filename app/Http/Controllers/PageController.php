@@ -21,7 +21,7 @@ class PageController extends Controller
     }
     public function viewBlogs(){
         return view('blogs',[
-            'blogs' => Blog::all()
+            'blogs' => Blog::paginate(3)
         ]);
     }
     public function viewSingleBlog($slug){
@@ -36,23 +36,33 @@ class PageController extends Controller
         return view('book-service');
     }
 
-    public function viewWebDevelopment(){
-        return view('web-development');
+    public function viewAnnualAccounts(){
+        return view('services.annual-services');
     }
-    public function viewMobileAppDevelopment(){
-        return view('mobile-app-development');
+    public function viewBookkeeping(){
+        return view('services.bookkeeping');
     }
-    public function viewSoftwareDevelopment(){
-        return view('software-development');
+    public function viewBusinessPlanning(){
+        return view('services.business-planning');
     }
-    public function viewUiUxDesign(){
-        return view('ui-ux-design');
+    public function viewCashflowForecasts(){
+        return view('services.cashflow-forecasts');
     }
-    public function viewDigitalMarketing(){
-        return view('digital-marketing');
+    public function viewCompanySecretarialServices(){
+        return view('services.company-secretarial-services');
     }
-    public function viewSeoServices(){
-        return view('seo-services');
+    public function viewSelfAssessment(){
+        return view('services.self-assessment');
+    }
+
+    public function viewPersonalTaxPlanning(){
+        return view('services.personal-tax-planning');
+    }
+    public function viewWealthManagement(){
+        return view('services.wealth-management');
+    }
+    public function viewTermsConditions(){
+        return view('terms-conditions');
     }
   
     public function viewPortfolios(){
