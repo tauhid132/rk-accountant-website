@@ -1,95 +1,341 @@
 @extends('master')
-@section('page-title', "Contact Us")
+@section('page-title', "About Us | RK Accountants")
 @section('main-body')
-<div id="content">
-    <div class="bg-subpage"></div>
-    <div class="our-mission-block pb-80">
-        <div class="container"> 
-            <div class="row pt-80">
-                <div class="col-lg-6 pr-45 pr-col-lg-0">
-                    <div class="heading4">Our Mission</div>
-                    <div class="body2 mt-12">At Yeols Limited, our mission is to empower businesses through innovative IT solutions. We specialize in Web Development, App Development, Software Development, UI/UX Design, and Digital Marketing to create seamless digital experiences. Our dedicated team leverages cutting-edge technology and creative expertise to deliver tailored solutions that drive growth, enhance user engagement, and optimize operational efficiency. We are committed to excellence, continuous improvement, and building long-term partnerships with our clients to help them achieve their digital transformation goals.</div>
+<!-- Page Header Start -->
+<div class="page-header light-bg-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Page Header Box Start -->
+                <div class="page-header-box">
+                    <h1 class="text-anime-style-3">About us</h1>
+                    <nav class="wow fadeInUp" data-wow-delay="0.25s">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">about us</li>
+                        </ol>
+                    </nav>
                 </div>
-                <div class="col-lg-6 pl-45 pl-col-lg-0">
-                    <div class="heading4">Our Vision</div>
-                    <div class="body2 mt-12">At Yeols Limited, our vision is to be a global leader in IT solutions, driving digital innovation and excellence. We aim to transform businesses through cutting-edge technology, creative design, and strategic digital marketing. By fostering a culture of continuous learning and adaptability, we strive to anticipate industry trends and deliver pioneering solutions. Our commitment to sustainability, integrity, and client-centric approaches ensures we build lasting, impactful partnerships. We envision a future where our solutions not only meet the evolving needs of businesses but also contribute to a more connected and technologically advanced world.</div>
-                </div>
-            </div>
-            <div class="counter row row-gap-24 pt-60">
-                <div class="col-6 col-md-3"> 
-                    <div class="counter-item"> 
-                        <div class="flex-item-center">
-                            <div class="count-number heading3">100</div><span class="heading3">+</span>
-                        </div>
-                        <div class="body1 mt-4">Happy Clients</div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3"> 
-                    <div class="counter-item"> 
-                        <div class="flex-item-center">
-                            <div class="count-number heading3">150</div><span class="heading3">+</span>
-                        </div>
-                        <div class="body1 mt-4">Projects Completed</div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3"> 
-                    <div class="counter-item"> 
-                        <div class="flex-item-center">
-                            <div class="count-number heading3">15</div><span class="heading3">+</span>
-                        </div>
-                        <div class="body1 mt-4">Working Countries</div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3"> 
-                    <div class="counter-item"> 
-                        <div class="flex-item-center">
-                            <div class="count-number heading3">5</div><span class="heading3">+</span>
-                        </div>
-                        <div class="body1 mt-4">Years Experience</div>
-                    </div>
-                </div>
+                <!-- Page Header Box End -->
             </div>
         </div>
     </div>
-
-
-    <div class="section-contact bg-linear-grey pt-60 pb-60 pt-80 pb-80">
-        <div class="container"> 
-            <div class="heading text-center">
-                <div class="heading3 text-center text-white">Our Journey Through Time</div>
-                <div class="text-center mt-12">Discover exceptional experiences through testimonials from our satisfied customers.</div>
-            </div>
-            <div class="list-values row row-gap-32 mt-40"> 
-                <div class="col-12 col-xxl-3 col-sm-6">
-                    <div class="item bg-white p-32 bora-20 h-100"><i class="ph-light ph-users text-blue fs-60"></i>
-                        <div class="heading5 fw-600 mt-24">Customer Centricity</div>
-                        <div class="text-on-surface-variant1 mt-12">Our clients are our priority. We listen to their needs, understand their challenges, and work tirelessly to deliver IT solutions that meet and exceed their expectations. Their success is our success.</div>
-                    </div>
-                </div>
-                <div class="col-12 col-xxl-3 col-sm-6">
-                    <div class="item bg-white p-32 bora-20 h-100"><i class="ph-light ph-trophy text-blue fs-60"></i>
-                        <div class="heading5 fw-600 mt-24">Quality Assurance</div>
-                        <div class="text-on-surface-variant1 mt-12">We have a relentless commitment to quality. We set high standards and rigorously test and monitor our IT services to ensure they meet those standards. Quality is non-negotiable.</div>
-                    </div>
-                </div>
-                <div class="col-12 col-xxl-3 col-sm-6">
-                    <div class="item bg-white p-32 bora-20 h-100"><i class="ph-light ph-crosshair text-blue fs-60"></i>
-                        <div class="heading5 fw-600 mt-24">Client Focus</div>
-                        <div class="text-on-surface-variant1 mt-12">Our clients are the center of our IT universe. We listen to their needs, provide tailored solutions, and stand by them every step of the way. Their success is our success, excellence, integrity.</div>
-                    </div>
-                </div>
-                <div class="col-12 col-xxl-3 col-sm-6">
-                    <div class="item bg-white p-32 bora-20 h-100"><i class="ph-light ph-shield-check text-blue fs-60"></i>
-                        <div class="heading5 fw-600 mt-24">Integrity Always</div>
-                        <div class="text-on-surface-variant1 mt-12">Integrity is the foundation of trust. We operate with complete transparency, ensuring the highest ethical standards in all our IT operations. Our clients rely on us for honesty and fairness.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-   
 </div>
+<!-- Page Header End -->
+ <!-- Page About Section Start -->
+ <div class="page-about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <!-- About Us Image Start -->
+                <div class="page-about-image">
+                    <!-- About Image Start -->
+                    <div class="about-img-1">
+                        <figure class="image-anime reveal">
+                            <img src="{{ asset('assets/images/page-about-1.jpg') }}" alt="">
+                        </figure>
+                    </div>
+                    <!-- About Image End -->
+
+                    <!-- About Image Start -->
+                    <div class="about-img-2">
+                        <figure class="image-anime reveal">
+                            <img src="{{ asset('assets/images/page-about-2.jpg') }}" alt="">
+                        </figure>
+                    </div>
+                    <!-- About Image End -->
+                    
+                    <!-- Satisfied Client Start -->
+                    <div class="satisfied-client">
+                        <div class="satisfied-client-icon">
+                            <img src="images/icon-satisfied-client.svg" alt="">
+                        </div>
+                        <div class="satisfied-client-content">
+                            <h3><span class="counter">300</span>+</h3>
+                            <p>satisfied client</p>
+                        </div>
+                    </div>
+                    <!-- Satisfied Client End -->
+                </div>
+                <!-- About Us Image End -->
+            </div>
+
+            <div class="col-lg-6">
+                <!-- About Us Content Start -->
+                <div class="about-content">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">about our company</h3>
+                        <h2 class="text-anime-style-3">RK Accountants</h2>
+                    </div>
+                    <!-- Section Title End -->
+
+                    <!-- About Content Body Start -->
+                    <div class="about-content-body wow fadeInUp mt-3" data-wow-delay="0.25s">
+                        <p>We are well established professionally qualified and experienced firm of accountants and tax adviser and having long track record in providing Accounting, Tax and other financial services which include all comprehensive value added services to its esteemed clients ensuring top most quality and standards.​</p>
+
+                            <p class="mt-4">Our professional bodies regulate our activities and conduct. The people behind the company pose strong professional back ground on which the successes for the years are written. We have to compulsorily undertake Continuing Professional Education / development to keep abreast of legislative and regulatory changes affecting our work.</p>
+                            
+                           <p class="mt-4"> We believe and trust that this should give you the assurance of quality and standard of competence to deal with your financial and taxation affairs professionally and to a very high standard for an affordable fee.</p>
+                    </div>
+                    <!-- About Content Body End -->
+
+                    <!-- About Content Footer Start -->
+                    
+                </div>
+                <!-- About Us Content End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Page About Section End -->
+
+<!-- Why Choose Us Section Start -->
+<div class="why-choose-us light-bg-section">
+    <div class="container">
+        <div class="row section-row align-items-center">
+            <div class="col-lg-6">
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h3 class="wow fadeInUp">why choose us</h3>
+                    <h2 class="text-anime-style-3">The work process of accounting solutions</h2>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+            <div class="col-lg-6">
+                <!-- Section Title Content Start -->
+                <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
+                </div>
+                <!-- Section Title Content End -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <!-- Why Choose Item Start -->
+                <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
+                    <div class="icon-box">
+                        <img src="images/icon-why-choose-4.svg" alt="">
+                    </div>
+                    <div class="why-choose-body">
+                        <h3>better financial insights</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                    </div>
+                </div>
+                <!-- Why Choose Item End -->
+            </div>
+
+            <div class="col-lg-4">
+                <!-- Why Choose Item Start -->
+                <div class="why-choose-item wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="icon-box">
+                        <img src="images/icon-why-choose-5.svg" alt="">
+                    </div>
+                    <div class="why-choose-body">
+                        <h3>streamlined operations</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                    </div>
+                </div>
+                <!-- Why Choose Item End -->
+            </div>
+
+            <div class="col-lg-4">
+                <!-- Why Choose Item Start -->
+                <div class="why-choose-item wow fadeInUp" data-wow-delay="0.75s">
+                    <div class="icon-box">
+                        <img src="images/icon-why-choose-6.svg" alt="">
+                    </div>
+                    <div class="why-choose-body">
+                        <h3>confirm</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                    </div>
+                </div>
+                <!-- Why Choose Item End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Why Choose Us Section End -->
+
+<!-- Our Clients Section Start -->
+<div class="our-clients">
+    <div class="container">
+        <div class="row section-row align-items-center">
+            <div class="col-lg-6">
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h3 class="wow fadeInUp">our clients</h3>
+                    <h2 class="text-anime-style-3">We help global brands deliver great results</h2>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+            <div class="col-lg-6">
+                <!-- Section Title Content Start -->
+                <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
+                </div>
+                <!-- Section Title Content End -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Clients Logo Start -->
+                <div class="client-logo wow fadeInUp" data-wow-delay="0.5s">
+                    <!-- client Item Start -->
+                    <div class="client-item">
+                        <img src="images/icon-client-logo-1.svg" alt="">
+                    </div>
+                    <!-- client Item End -->
+
+                    <!-- client Item Start -->
+                    <div class="client-item">
+                        <img src="images/icon-client-logo-2.svg" alt="">
+                    </div>
+                    <!-- client Item End -->
+
+                    <!-- client Item Start -->
+                    <div class="client-item">
+                        <img src="images/icon-client-logo-3.svg" alt="">
+                    </div>
+                    <!-- client Item End -->
+
+                    <!-- client Item Start -->
+                    <div class="client-item">
+                        <img src="images/icon-client-logo-4.svg" alt="">
+                    </div>
+                    <!-- client Item End -->
+
+                    <!-- client Item Start -->
+                    <div class="client-item">
+                        <img src="images/icon-client-logo-5.svg" alt="">
+                    </div>
+                    <!-- client Item End -->
+
+                    <!-- client Item Start -->
+                    <div class="client-item">
+                        <img src="images/icon-client-logo-6.svg" alt="">
+                    </div>
+                    <!-- client Item End -->
+
+                    <!-- client Item Start -->
+                    <div class="client-item">
+                        <img src="images/icon-client-logo-7.svg" alt="">
+                    </div>
+                    <!-- client Item End -->
+                </div>
+                <!-- Clients Logo End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our Clients Section End -->
+
+
+
+<!-- Client Testimonials Start -->
+<div class="client-testimonials">
+    <div class="container">
+        <div class="row section-row align-items-center">
+            <div class="col-lg-6">
+                <div class="client-testimonials-content">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">testimonials</h3>
+                        <h2 class="text-anime-style-3">Real stories of success and satisfaction</h2>
+                    </div>
+                    <!-- Section Title End -->
+
+                    <!-- Section Body Start -->
+                    <div class="section-body">
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+                        <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.5s">contact us</a>
+                    </div>
+                    <!-- Section Body Btn End -->
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <!-- Testimonial Slider Start -->
+                <div class="testimonial-slider">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Testimonial Slide Start -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">	
+                                    <div class="testimonial-header">
+                                        <div class="author-image">
+                                            <figure class="image-anime">
+                                                <img src="images/author-1.jpg" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="author-content">
+                                            <h2>john doe</h2>
+                                            <p>(customer)</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-body">
+                                       <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard .</p>									
+                                    </div>													
+                                </div>
+                            </div>
+                            <!-- Testimonial Slide End -->
+                            
+                            <!-- Testimonial Slide Start -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">	
+                                    <div class="testimonial-header">
+                                        <div class="author-image">
+                                            <figure class="image-anime">
+                                                <img src="images/author-2.jpg" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="author-content">
+                                            <h2>banson doe</h2>
+                                            <p>(CEO)</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-body">
+                                       <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard .</p>									
+                                    </div>													
+                                </div>
+                            </div>
+                            <!-- Testimonial Slide End -->
+
+                            <!-- Testimonial Slide Start -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">	
+                                    <div class="testimonial-header">
+                                        <div class="author-image">
+                                            <figure class="image-anime">
+                                                <img src="images/author-3.jpg" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="author-content">
+                                            <h2>arita banson</h2>
+                                            <p>(employee)</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-body">
+                                       <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate. Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard .</p>									
+                                    </div>													
+                                </div>
+                            </div>
+                            <!-- Testimonial Slide End -->
+                        </div>
+                        <div class="hero-button-prev"></div>
+                        <div class="hero-button-next"></div>
+                    </div>
+                </div>
+                <!-- Testimonial Slider End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Client Testimonials End -->
+
+
 @endsection

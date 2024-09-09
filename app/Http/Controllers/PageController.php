@@ -61,8 +61,26 @@ class PageController extends Controller
     public function viewWealthManagement(){
         return view('services.wealth-management');
     }
+    public function viewVatServices(){
+        return view('services.vat-services');
+    }
+    public function viewInheritanceTax(){
+        return view('services.inheritance-tax');
+    }
+    public function viewCapitalGainsTax(){
+        return view('services.capital-gains-tax');
+    }
+    public function viewCorporateTaxPlanning(){
+        return view('services.corporate-tax-planning');
+    }
+    public function viewPrivacyPolicy(){
+        return view('privacy-policy');
+    }
     public function viewTermsConditions(){
         return view('terms-conditions');
+    }
+    public function viewQuotation(){
+        return view('get-quote');
     }
   
     public function viewPortfolios(){

@@ -9,9 +9,9 @@ class ContactUsSubmissionController extends Controller
 {
     public function submitContactUs(Request $request){
         ContactUsSubmission::create([
-            'name' => $request->full_name,
+            'name' => $request->name,
             'email' => $request->email,
-            'subject' => $request->subject,
+            'mobile' => $request->mobile,
             'message' => $request->message,
         ]);
         return back()->with('success', 'Thank you for your interest. We will contact you as soon as possible.');

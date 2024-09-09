@@ -229,11 +229,13 @@
 var e = {
     init: function () {
         
-        e.tinySlider()
+        e.tinySlider(),
+        e.backTotop(),
+        e.megaMenu()
         
     },
     
-	isVariableDefined: function (el) {
+    isVariableDefined: function (el) {
         return typeof !!el && (el) != 'undefined' && el != null;
     },
     getParents: function (el, selector, filter) {
@@ -358,6 +360,35 @@ var e = {
     selectAll: function (selectors) {
         return document.querySelectorAll(selectors);
     },
+
+
+    megaMenu: function () {
+        e.onAll('.dropdown-menu a.dropdown-item.dropdown-toggle', 'click', function (event) {
+            var element = this;
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            if (e.isVariableDefined(element.nextElementSibling) && !element.nextElementSibling.classList.contains("show")) {
+                const parents = e.getParents(element, '.dropdown-menu');
+                e.removeClass(parents.querySelector('.show'), "show");
+                if(e.isVariableDefined(parents.querySelector('.dropdown-opened'))){
+                    e.removeClass(parents.querySelector('.dropdown-opened'), "dropdown-opened");
+                }
+
+            }
+            var $subMenu = e.getNextSiblings(element, ".dropdown-menu");
+            e.toggleClass($subMenu, "show");
+            $subMenu.previousElementSibling.toggleClass('dropdown-opened');
+            var parents = e.getParents(element, 'li.nav-item.dropdown.show');
+            if (e.isVariableDefined(parents) && parents.length > 0) {
+                e.on(parents, 'hidden.bs.dropdown', function (event) {
+                    e.removeAllClass('.dropdown-submenu .show');
+                });
+            }
+        });
+    },
+    // END: Mega Menu
+
+
     // START: 04 Tiny Slider
     tinySlider: function () {
         var $carousel = e.select('.tiny-slider-inner');
@@ -457,6 +488,8 @@ var e = {
         }
     },
     // END: Tiny Slider
+
+    
 
     
 

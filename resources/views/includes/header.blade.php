@@ -8,20 +8,18 @@
         <div class="collapse navbar-collapse main-menu">
           <div class="nav-menu-wrapper">
             <ul class="navbar-nav mr-auto" id="menu">
-              <li class="nav-item"><a class="nav-link" href="{{ route('view.home.page') }}">Home</a></li>                                
-              <li class="nav-item"><a class="nav-link" href="{{ route('view.about.us') }}">About Us</a></li>
-              <li class="nav-item submenu"><a class="nav-link" href="#">Services</a>
+              <li class="nav-item"><a class="nav-link {{ Request::is('/') ? 'active':''  }}" href="{{ route('view.home.page') }}">Home</a></li>                                
+              <li class="nav-item"><a class="nav-link {{ Request::is('about-us') ? 'active':''  }}" href="{{ route('view.about.us') }}">About Us</a></li>
+              
+              <li class="nav-item submenu"><a class="nav-link {{ Request::is('services/*') ? 'active':''  }}" href="#">Services</a>
                 <ul>                                        
                   <li class="nav-item"><a class="nav-link" href="{{ route('view.annual.accounts') }}">Annual Accounts</a></li>
                   <li class="nav-item"><a class="nav-link" href="{{ route('view.book.keeping') }}">Bookkeeping</a></li>
-                  <li class="nav-item submenu"><a class="nav-link" href="#">Services</a>
-                    <ul>                                        
-                      <li class="nav-item"><a class="nav-link" href="{{ route('view.annual.accounts') }}">Annual Accounts</a></li>
-                      <li class="nav-item"><a class="nav-link" href="{{ route('view.book.keeping') }}">Bookkeeping</a></li>
-                      <li class="nav-item"><a class="nav-link" href="team.html">Business Taxation</a></li>
-                      <li class="nav-item"><a class="nav-link" href="{{ route('view.business.planning') }}">Business Planning</a></li>
-                      <li class="nav-item"><a class="nav-link" href="{{ route('view.cashflow.forecasts') }}">Cashflow Forecasts</a></li>
-                      <li class="nav-item"><a class="nav-link" href="{{ route('view.company.secretarial.services') }}">Company Secretarial Services</a></li>
+                  <li class="nav-item submenu "><a class="nav-link" href="#">Services</a>
+                    <ul class="sub-menu">                                        
+                      <li class="nav-item"><a class="nav-link" href="{{ route('view.annual.accounts') }}">hhhhhhhs</a></li>
+                      <li class="nav-item"><a class="nav-link" href="{{ route('view.book.keeping') }}">ffff</a></li>
+                      
                     </ul>
                   </li>
                   <li class="nav-item"><a class="nav-link" href="{{ route('view.business.planning') }}">Business Planning</a></li>
@@ -36,14 +34,14 @@
                   <li class="nav-item"><a class="nav-link" href="{{ route('view.wealth.management') }}">Wealth Management</a></li>
                 </ul>
               </li>
-              <li class="nav-item"><a class="nav-link" href="{{ route('view.blogs') }}">Blog</a></li>
-              <li class="nav-item"><a class="nav-link" href="{{ route('view.contact.us') }}">Contact Us</a></li>
+              <li class="nav-item"><a class="nav-link {{ Request::is('blogs') ? 'active':''  }}" href="{{ route('view.blogs') }}">Blogs</a></li>
+              <li class="nav-item"><a class="nav-link {{ Request::is('contact-us') ? 'active':''  }}" href="{{ route('view.contact.us') }}">Contact Us</a></li>
       
-              <li class="nav-item highlighted-menu"><a class="nav-link" href="#">Get A Quote</a></li>                               
+              <li class="nav-item highlighted-menu"><a class="nav-link" href="{{ route('view.quotation') }}">Get A Quote</a></li>                               
             </ul>
           </div>
           <div class="header-btn d-inline-flex">
-            <a href="#" class="btn-default">Get A Quote</a>
+            <a href="{{ route('view.quotation') }}" class="btn-default">Get A Quote</a>
           </div>
         </div>
         <div class="navbar-toggle"></div>

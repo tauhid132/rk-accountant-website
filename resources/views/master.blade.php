@@ -47,12 +47,12 @@
     
     @yield('main-body')
     
-   
+    
     
     @include('includes.footer')
     
     
-    
+    <div class="back-top" id="topBtn"></div>
     
     <script src="{{ asset('assets/js/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
@@ -65,19 +65,35 @@
     <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <script src="{{ asset('assets/js/SmoothScroll.js') }}"></script>
     <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/magiccursor.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/magiccursor.js') }}"></script> --}}
     <script src="{{ asset('assets/js/SplitText.js') }}"></script>
     <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
     <script src="{{ asset('assets/js/wow.js') }}"></script>
     <script src="{{ asset('assets/js/function.js') }}"></script>
     <script>
         window.addEventListener('scroll', function () {
-  var headerMenu = document.querySelector('.main-header');
-  if (headerMenu) {
-    headerMenu.classList.toggle('sticky', window.scrollY > 700);
-  }
-});
-        </script>
+            var headerMenu = document.querySelector('.main-header');
+            if (headerMenu) {
+                headerMenu.classList.toggle('sticky', window.scrollY > 700);
+            }
+        });
+
+        window.addEventListener('scroll', function () {
+                scrollpos = window.scrollY;
+                var topBtn = document.getElementById("topBtn");
+                if (scrollpos >= 800) {
+                    topBtn.classList.add("back-top-show");
+                    //e.select('.back-top').addClass("back-top-show");
+                } else {
+                    //e.select('.back-top').removeClass("back-top-show");
+                    topBtn.classList.remove("back-top-show");
+                }
+                topBtn.addEventListener('click', () => window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            }));
+            });
+    </script>
 </body>
 
 </html>

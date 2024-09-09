@@ -10,6 +10,7 @@ use App\Http\Controllers\PageController;
 use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\QuotationController;
 use App\Models\Booking;
 
 /*
@@ -41,10 +42,17 @@ Route::get('/services/self-assessment', [PageController::class, 'viewSelfAssessm
 Route::get('/services/personal-tax-planning', [PageController::class, 'viewPersonalTaxPlanning'])->name('view.personal.tax.planning');
 Route::get('/services/wealth-management', [PageController::class, 'viewWealthManagement'])->name('view.wealth.management');
 
+Route::get('/services/vat-service', [PageController::class, 'viewVatServices'])->name('view.vat.services');
+Route::get('/services/inheritance-tax', [PageController::class, 'viewInheritanceTax'])->name('view.inheritance.tax');
+Route::get('/services/capital-gains-tax', [PageController::class, 'viewCapitalGainsTax'])->name('view.capital.gains.tax');
+Route::get('/services/corporate-tax-planning', [PageController::class, 'viewCorporateTaxPlanning'])->name('view.corporate.tax.planning');
+
 Route::post('/subscribe-newsletter', [NewsLetterSubscriptionController::class, 'subscribeNewsletter'])->name('subscribe.newsletter');
 
 Route::get('/privacy-policy', [PageController::class, 'viewPrivacyPolicy'])->name('view.privacy.policy');
 Route::get('terms-and-conditions', [PageController::class, 'viewTermsConditions'])->name('view.terms.conditions');
+Route::get('quotation', [PageController::class, 'viewQuotation'])->name('view.quotation');
+Route::post('quotation', [QuotationController::class, 'saveQuotation']);
 
 
 Route::middleware('auth')->prefix('admin')->group(function () {

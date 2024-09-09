@@ -1,41 +1,4 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Wexico - Accounting & Finance HTML Template
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
-/* INDEX
-----------------------------------------------------------------------------------------
-01. Global Variables
-02. General css
-03. Header css
-04. Hero css
-05. About Us css
-06. Our Services css
-07. State Counter css
-08. Why Choose Us css
-09. Our Employee css
-10. Cta Box css
-11. We Help css
-12. Our Pricing css
-13. Testimonials css
-14. Our Blog css
-15. Footer css
-16. About us Page css
-17. Services Page css
-18. Service Single css
-19. Blog Archive css
-20. Blog Single css
-21. Contact us Page css
-22. Pricing Page css
-23.	FAQs Page css
-24. 404 Page css
-25. Responsive css
--------------------------------------------------------------------------------------- */
 
-/************************************/
-/*** 	 01. Global Variables	  ***/
-/************************************/	
 
 :root{
 	--primary-color		: #0C1524;
@@ -511,11 +474,31 @@ header.main-header{
 	text-align: left;
 }
 
-.main-menu ul ul ul{
+/* .main-menu ul ul ul{
+	visibility: hidden;
+	opacity: 0;
+	transform: scaleY(0.8);
+	transform-origin: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 410px;
+	border-radius: 15px;
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	overflow: hidden;
+	background-color: var(--accent-color);
+	transition: all 0.3s ease-in-out;
+	text-align: left;
+} */
+
+
+/* .main-menu ul ul ul{
 	left: 100%;
 	top: 0;
 	text-align: left;
-}
+} */
 
 .main-menu ul ul li{
 	margin: 0;
@@ -529,6 +512,13 @@ header.main-header{
 }
 
 .main-menu ul li:hover > ul{
+	visibility: visible;
+	opacity: 1;
+	transform: scaleY(1);
+    padding: 5px 0;
+}
+
+.main-menu ul li ul li:hover > ul{
 	visibility: visible;
 	opacity: 1;
 	transform: scaleY(1);
@@ -2250,6 +2240,11 @@ header.main-header{
 }
 
 .service-catagery-list ul li:hover a{
+	background-color: var(--accent-color);
+	color: var(--white-color);
+}
+
+.service-catagery-list ul li .active{
 	background-color: var(--accent-color);
 	color: var(--white-color);
 }
@@ -4567,3 +4562,70 @@ header.main-header{
   .input-with-range-max {
 	text-align: right;
   }
+
+
+  .nav-link.active{
+	color: var(--accent-color)  !important
+  }
+
+
+  .back-top {
+	cursor: pointer;
+	position: fixed !important;
+	bottom: 40px;
+	right: 40px;
+	display: block;
+	z-index: 99;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transform: translateY(50%);
+			transform: translateY(50%);
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background: var(--accent-color);
+	color: #fff;
+	border-radius: 50%;
+	width: 52px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+  }
+  .back-top:before {
+	content: "\f176";
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+  }
+  .back-top:hover {
+	background: var(--primary-color);
+	color: #fff;
+  }
+  .back-top.back-top-show {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transform: translateY(0%);
+			transform: translateY(0%);
+  }
+  
+  @media (max-width: 767.98px) {
+	.back-top {
+	  bottom: 10px;
+	  right: 10px;
+	  width: 30px;
+	  height: 30px;
+	  line-height: 30px;
+	}
+	.back-top:before {
+	  font-size: 0.6rem;
+	}
+  }
+  @media (max-width: 575.98px) {
+	.back-top {
+	  display: none;
+	}
+  }
+  
