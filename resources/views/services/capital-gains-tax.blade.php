@@ -6,12 +6,12 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-header-box">
-                    <h1 class="text-anime-style-3">Book Keeping</h1>
+                    <h1 class="text-anime-style-3">Capital Gains Tax</h1>
                     <nav class="wow fadeInUp" data-wow-delay="0.25s">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">home</a></li>
                             <li class="breadcrumb-item"><a href="#">services</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Bookkeeping</li>
+                            <li class="breadcrumb-item active" aria-current="page">Capital Gains Tax</li>
                         </ol>
                     </nav>
                 </div>
@@ -26,23 +26,26 @@
             <div class="col-lg-8">
                 <div class="service-single-content">
                     <div class="service-entry">
-                        <h2 class="text-anime-style-3">Get Started with our Bookkeping Service</h2>
-                        <p class="wow fadeInUp">Our business support network is available to our clients from the first day of your business start-up, through every stage of your business development. Our team has extensive experience in assisting an guiding businesses to be well equipped with the correct business knowledge and tools to be able to succeed at every stage. We act as a silent partner in your business, providing direction and insight from an outward perspective.</p>
-                        
-                        <h4 class="text-anime-style-3 mt-5 mb-4">Bring us your business ideas and we will help you to evaluate them in a constructive and optimistic manner. We can also help you with</h4>
+                        <h2 class="text-anime-style-3">Get Started with our Capital Gains Tax Service</h2>
+                        <p class="wow fadeInUp">Careful planning of capital asset disposals is essential in order to minimise capital gains tax. We have wide ranging experience in dealing with all aspects of capital taxes and provide accountancy services to assist our clients with calculating potential capital gains tax. We ensure that available reliefs such as entrepreneurs relief, principal private residence relief and lettings relief are maximised together with exemptions such as the annual exemption, spouse exemption or gifts to charity. In addition to this we also offer a specialist service for UK property owned by non-residents.</p>
+                        <h4 class="text-anime-style-3 mt-5 mb-4">We Provide</h4>
                         <div class="customer-Benefit-content wow fadeInUp" data-wow-delay="0.5s">
                             <ul>
-                                <li>Development of a strategic business plan, setting out objectives, opportunities, constraints and an action plan.</li>
-                                <li>Preparation of an overall business plan incorporating cash flow forecast, profit forecast and an assessment of anticipated working capital requirements.</li>
-                                <li>Advice on business finance whether through bank funding, factoring, invoice discounting or external investment.</li>
-                                <li>Managements of the banking relationship and ensuring a good working relation with the principle source of day to day finance, including reviews of banking covenants and key performance indicators.</li>
-                                <li>Profit improvement and managing growth. Objective review of revenue and expenditure streams.</li>
-                                <li>Tax planning, retirement planning, pensions and investment advice.</li>
-                                <li>Advice relating to the sale of a business; advising in terms of maximising sale proceeds, minimising tax liabilities, and protecting management and employee interests.</li>
-                                <li>Managing due diligence process on behalf of clients, whether selling or acquiring.</li>
+                                <li><b>Tax Liability Assessment:</b> Expert evaluation of your capital gains tax liability, including personal and business assets.</li>
+                                <li><b>Asset Disposal Advice:</b> Strategic guidance on the sale or transfer of assets to minimize tax exposure.</li>
+                                <li><b>Annual Exemption Planning:</b> Advice on utilizing the annual capital gains tax exemption to reduce overall tax liability.</li>
+                                <li><b>Property and Real Estate Gains:</b> Specialized assistance in handling capital gains tax on property sales, including private residences and investment properties.</li>
+                                <li><b>Foreign Asset Taxation:</b> Assistance with managing capital gains tax on overseas assets and ensuring compliance with international tax laws.</li>
+                                <li><b>Shares and Securities:</b> Tailored advice on capital gains tax related to investments in shares, bonds, and other securities.</li>
+                                <li><b>Reliefs and Exemptions:</b> Expert guidance on available reliefs such as Entrepreneurs' Relief, Rollover Relief, and Investors' Relief.</li>
+                                <li><b>Inheritance and Capital Gains:</b> Integrated services for managing the interaction between inheritance tax and capital gains tax.</li>
+                                <li><b>Tax Deferral Strategies:</b> Advice on deferring tax liabilities using investments or other financial vehicles.</li>
+                                <li><b>Wealth Preservation:</b> Long-term strategies to protect wealth from excessive capital gains taxation, ensuring maximum retention of profits.</li>
                             </ul>
                         </div>
+                        
                     </div>
+                    <a href="{{ route('view.contact.us') }}" class="btn-default mt-5 wow fadeInUp" data-wow-delay="1s">Fore More Information, Please Contact Us</a>
                 </div>                    
             </div>
 

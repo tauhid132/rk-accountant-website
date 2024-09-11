@@ -42,6 +42,7 @@
                             </ul>
                         </div>
                     </div>
+                    <a href="{{ route('view.contact.us') }}" class="btn-default mt-5 wow fadeInUp" data-wow-delay="1s">Fore More Information, Please Contact Us</a>
                 </div>                    
             </div>
 

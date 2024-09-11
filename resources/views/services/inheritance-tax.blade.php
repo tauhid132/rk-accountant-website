@@ -6,12 +6,12 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-header-box">
-                    <h1 class="text-anime-style-3">Book Keeping</h1>
+                    <h1 class="text-anime-style-3">Inheritance Tax</h1>
                     <nav class="wow fadeInUp" data-wow-delay="0.25s">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">home</a></li>
                             <li class="breadcrumb-item"><a href="#">services</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Bookkeeping</li>
+                            <li class="breadcrumb-item active" aria-current="page">Inheritance Tax</li>
                         </ol>
                     </nav>
                 </div>
@@ -26,23 +26,26 @@
             <div class="col-lg-8">
                 <div class="service-single-content">
                     <div class="service-entry">
-                        <h2 class="text-anime-style-3">Get Started with our Bookkeping Service</h2>
-                        <p class="wow fadeInUp">Our business support network is available to our clients from the first day of your business start-up, through every stage of your business development. Our team has extensive experience in assisting an guiding businesses to be well equipped with the correct business knowledge and tools to be able to succeed at every stage. We act as a silent partner in your business, providing direction and insight from an outward perspective.</p>
-                        
-                        <h4 class="text-anime-style-3 mt-5 mb-4">Bring us your business ideas and we will help you to evaluate them in a constructive and optimistic manner. We can also help you with</h4>
+                        <h2 class="text-anime-style-3">Get Started with our Inheritance Tax Service</h2>
+                        <p class="wow fadeInUp">Our estate and inheritance tax planning specialists work with you to identify ways to minimise your inheritance tax liabilities. We’ll look at tax minimisation opportunities, including trusts, and help you make best use of the gifts and exemptions allowed under IHT rules, including lifetime gifts, annual gifts, gifts to charities and agricultural and business property relief. We will look at your estate from all angles so that, for example, a gift that saves inheritance tax does not create a higher alternative tax liability.</p>
+                        <h4 class="text-anime-style-3 mt-5 mb-4">We Provide</h4>
                         <div class="customer-Benefit-content wow fadeInUp" data-wow-delay="0.5s">
                             <ul>
-                                <li>Development of a strategic business plan, setting out objectives, opportunities, constraints and an action plan.</li>
-                                <li>Preparation of an overall business plan incorporating cash flow forecast, profit forecast and an assessment of anticipated working capital requirements.</li>
-                                <li>Advice on business finance whether through bank funding, factoring, invoice discounting or external investment.</li>
-                                <li>Managements of the banking relationship and ensuring a good working relation with the principle source of day to day finance, including reviews of banking covenants and key performance indicators.</li>
-                                <li>Profit improvement and managing growth. Objective review of revenue and expenditure streams.</li>
-                                <li>Tax planning, retirement planning, pensions and investment advice.</li>
-                                <li>Advice relating to the sale of a business; advising in terms of maximising sale proceeds, minimising tax liabilities, and protecting management and employee interests.</li>
-                                <li>Managing due diligence process on behalf of clients, whether selling or acquiring.</li>
+                                <li><b>Tax Planning Consultation:</b> Comprehensive guidance to reduce inheritance tax liability through effective planning strategies.</li>
+                                <li><b>Estate Valuation:</b> Accurate assessment of the value of the estate, including property, investments, and personal assets.</li>
+                                <li><b>Gift Strategies:</b> Advice on lifetime gifts to reduce inheritance tax and maximize exemptions.</li>
+                                <li><b>Use of Trusts:</b> Implementing and managing trusts to protect assets and reduce the tax burden.</li>
+                                <li><b>Business Relief and Agricultural Relief:</b> Assisting in claims for relief on qualifying business or agricultural assets.</li>
+                                <li><b>Nil Rate Band and Residence Nil Rate Band:</b> Advice on utilizing the maximum tax-free allowance for inheritance.</li>
+                                <li><b>Charitable Giving:</b> Guidance on how charitable donations can lower inheritance tax rates.</li>
+                                <li><b>Wealth Preservation:</b> Long-term strategies to preserve family wealth for future generations.</li>
+                                <li><b>Succession Planning:</b> Tailored advice on passing wealth efficiently and legally to beneficiaries.</li>
+                                <li><b>HMRC Liaison:</b> Handling communication and submission of paperwork with HM Revenue & Customs (HMRC) on your behalf.</li>
                             </ul>
                         </div>
+                        
                     </div>
+                    <a href="{{ route('view.contact.us') }}" class="btn-default mt-5 wow fadeInUp" data-wow-delay="1s">Fore More Information, Please Contact Us</a>
                 </div>                    
             </div>
 

@@ -230,7 +230,6 @@ var e = {
     init: function () {
         
         e.tinySlider(),
-        e.backTotop(),
         e.megaMenu()
         
     },

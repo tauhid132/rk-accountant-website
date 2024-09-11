@@ -38,9 +38,9 @@ Route::get('/services/bookkeeping', [PageController::class, 'viewBookkeeping'])-
 Route::get('/services/business-planning', [PageController::class, 'viewBusinessPlanning'])->name('view.business.planning');
 Route::get('/services/cashflow-forecasts', [PageController::class, 'viewCashflowForecasts'])->name('view.cashflow.forecasts');
 Route::get('/services/company-secretarial-services', [PageController::class, 'viewCompanySecretarialServices'])->name('view.company.secretarial.services');
-Route::get('/services/self-assessment', [PageController::class, 'viewSelfAssessment'])->name('view.self.assessment');
-Route::get('/services/personal-tax-planning', [PageController::class, 'viewPersonalTaxPlanning'])->name('view.personal.tax.planning');
-Route::get('/services/wealth-management', [PageController::class, 'viewWealthManagement'])->name('view.wealth.management');
+Route::get('/individual-services/self-assessment', [PageController::class, 'viewSelfAssessment'])->name('view.self.assessment');
+Route::get('/individual-services/personal-tax-planning', [PageController::class, 'viewPersonalTaxPlanning'])->name('view.personal.tax.planning');
+Route::get('/individual-services/wealth-management', [PageController::class, 'viewWealthManagement'])->name('view.wealth.management');
 
 Route::get('/services/vat-service', [PageController::class, 'viewVatServices'])->name('view.vat.services');
 Route::get('/services/inheritance-tax', [PageController::class, 'viewInheritanceTax'])->name('view.inheritance.tax');

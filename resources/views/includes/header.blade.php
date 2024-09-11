@@ -13,25 +13,22 @@
               
               <li class="nav-item submenu"><a class="nav-link {{ Request::is('services/*') ? 'active':''  }}" href="#">Services</a>
                 <ul>                                        
-                  <li class="nav-item"><a class="nav-link" href="{{ route('view.annual.accounts') }}">Annual Accounts</a></li>
-                  <li class="nav-item"><a class="nav-link" href="{{ route('view.book.keeping') }}">Bookkeeping</a></li>
-                  <li class="nav-item submenu "><a class="nav-link" href="#">Services</a>
-                    <ul class="sub-menu">                                        
-                      <li class="nav-item"><a class="nav-link" href="{{ route('view.annual.accounts') }}">hhhhhhhs</a></li>
-                      <li class="nav-item"><a class="nav-link" href="{{ route('view.book.keeping') }}">ffff</a></li>
-                      
-                    </ul>
-                  </li>
-                  <li class="nav-item"><a class="nav-link" href="{{ route('view.business.planning') }}">Business Planning</a></li>
-                  <li class="nav-item"><a class="nav-link" href="{{ route('view.cashflow.forecasts') }}">Cashflow Forecasts</a></li>
-                  <li class="nav-item"><a class="nav-link" href="{{ route('view.company.secretarial.services') }}">Company Secretarial Services</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('services/annual-accounts*') ? 'active':''  }}" href="{{ route('view.annual.accounts') }}">Annual Accounts</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('services/bookkeeping*') ? 'active':''  }}" href="{{ route('view.book.keeping') }}">Bookkeeping</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('services/business-planning*') ? 'active':''  }}" href="{{ route('view.business.planning') }}">Business Planning</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('services/vat-service*') ? 'active':''  }}" href="{{ route('view.vat.services') }}">VAT Service</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('services/inheritance-tax*') ? 'active':''  }}" href="{{ route('view.inheritance.tax') }}">Inheritance Tax</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('services/capital-gains-tax*') ? 'active':''  }}" href="{{ route('view.capital.gains.tax') }}">Capital Gains Tax</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('services/corporate-tax-planning*') ? 'active':''  }}" href="{{ route('view.corporate.tax.planning') }}">Corporate Tax Planning</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('services/cashflow-forecasts*') ? 'active':''  }}" href="{{ route('view.cashflow.forecasts') }}">Cashflow Forecasts</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('services/company-secretarial-services*') ? 'active':''  }}" href="{{ route('view.company.secretarial.services') }}">Company Secretarial Services</a></li>
                 </ul>
               </li>
-              <li class="nav-item submenu"><a class="nav-link" href="#">Services For Individuals</a>
+              <li class="nav-item submenu"><a class="nav-link {{ Request::is('individual-services/*') ? 'active':''  }}" href="#">Services For Individuals</a>
                 <ul>                                        
-                  <li class="nav-item"><a class="nav-link" href="{{ route('view.self.assessment') }}">Self Assesment</a></li>
-                  <li class="nav-item"><a class="nav-link" href="{{ route('view.personal.tax.planning') }}">Personal Tax Planning</a></li>
-                  <li class="nav-item"><a class="nav-link" href="{{ route('view.wealth.management') }}">Wealth Management</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('individual-services/self-assessment*') ? 'active':''  }}" href="{{ route('view.self.assessment') }}">Self Assesment</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('individual-services/personal-tax-planning*') ? 'active':''  }}" href="{{ route('view.personal.tax.planning') }}">Personal Tax Planning</a></li>
+                  <li class="nav-item"><a class="nav-link {{ Request::is('individual-services/wealth-management*') ? 'active':''  }}" href="{{ route('view.wealth.management') }}">Wealth Management</a></li>
                 </ul>
               </li>
               <li class="nav-item"><a class="nav-link {{ Request::is('blogs') ? 'active':''  }}" href="{{ route('view.blogs') }}">Blogs</a></li>

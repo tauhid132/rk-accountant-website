@@ -26,23 +26,26 @@
             <div class="col-lg-8">
                 <div class="service-single-content">
                     <div class="service-entry">
-                        <h2 class="text-anime-style-3">Get Started with our Business Planning Service</h2>
-                        <p class="wow fadeInUp">Our business support network is available to our clients from the first day of your business start-up, through every stage of your business development. Our team has extensive experience in assisting an guiding businesses to be well equipped with the correct business knowledge and tools to be able to succeed at every stage. We act as a silent partner in your business, providing direction and insight from an outward perspective.</p>
+                        <h2 class="text-anime-style-3">Get Started with our Cashflow Overcasts</h2>
+                        <p class="wow fadeInUp">If you are a new or established business, raising finance can be a difficult and time consuming exercise. We can help you prepare and monitor your cashflow statements, making comparisons and budgeting where necessary. Our detailed projections will give you a better understanding of all the related costs, and how much money you would need to raise. We also use these results to make recommendations to improve the performance of your business.</p>
                         
                         <h4 class="text-anime-style-3 mt-5 mb-4">Bring us your business ideas and we will help you to evaluate them in a constructive and optimistic manner. We can also help you with</h4>
                         <div class="customer-Benefit-content wow fadeInUp" data-wow-delay="0.5s">
                             <ul>
-                                <li>Development of a strategic business plan, setting out objectives, opportunities, constraints and an action plan.</li>
-                                <li>Preparation of an overall business plan incorporating cash flow forecast, profit forecast and an assessment of anticipated working capital requirements.</li>
-                                <li>Advice on business finance whether through bank funding, factoring, invoice discounting or external investment.</li>
-                                <li>Managements of the banking relationship and ensuring a good working relation with the principle source of day to day finance, including reviews of banking covenants and key performance indicators.</li>
-                                <li>Profit improvement and managing growth. Objective review of revenue and expenditure streams.</li>
-                                <li>Tax planning, retirement planning, pensions and investment advice.</li>
-                                <li>Advice relating to the sale of a business; advising in terms of maximising sale proceeds, minimising tax liabilities, and protecting management and employee interests.</li>
-                                <li>Managing due diligence process on behalf of clients, whether selling or acquiring.</li>
+                                <li><b>Cashflow Projections:</b> Accurate forecasts to predict your business’s future cash inflows and outflows, helping to manage liquidity effectively.</li>
+                                <li><b>Scenario Planning:</b> Developing multiple cashflow scenarios to prepare your business for potential changes in market conditions, sales, and expenses.</li>
+                                <li><b>Working Capital Management:</b> Strategies to optimize working capital, ensuring that your company has sufficient cash to meet short-term obligations.</li>
+                                <li><b>Debt and Financing Analysis:</b> Reviewing existing loans and credit facilities to ensure efficient management of interest payments and debt repayment schedules.</li>
+                                <li><b>Budgeting Support:</b> Assisting in the creation of detailed budgets that align with your company’s cashflow forecast to maintain financial stability.</li>
+                                <li><b>Investment Planning:</b> Guidance on how to use cashflow forecasts for future investment planning, ensuring sufficient funds for growth and expansion.</li>
+                                <li><b>Cashflow Monitoring:</b> Ongoing analysis and reporting to track actual performance against forecasts, with adjustments made as necessary.</li>
+                                <li><b>Supplier and Customer Management</b>: Assistance in optimizing payment terms with suppliers and improving receivables collection from customers to enhance cashflow.</li>
+                                <li><b>Risk Identification:</b> Identifying potential cashflow risks and implementing strategies to mitigate them.</li>
+                                <li><b>Seasonal Forecasting:</b> Specialized cashflow forecasts to manage seasonal fluctuations in income and expenses.</li>
                             </ul>
                         </div>
                     </div>
+                    <a href="{{ route('view.contact.us') }}" class="btn-default mt-5 wow fadeInUp" data-wow-delay="1s">Fore More Information, Please Contact Us</a>
                 </div>                    
             </div>
 

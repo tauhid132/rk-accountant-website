@@ -31,7 +31,7 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div>
                     <div class="row align-items-center">
                         <div class="col-lg-5">
@@ -110,12 +110,12 @@
                     <div class="why-choose-image">
                         <img src="{{ asset('images/accounting-cover.jpg') }}" alt="">
                     </div>
-
+                    
                     <div class="why-choose-content">
                         <div class="why-choose-title">
                             <h2 class="text-anime-style-3">Experience seamless, secure, and efficient account management</h2>
                         </div>
-
+                        
                         <div class="why-choose-counter">
                             <h3><span class="counter">10</span> Years</h3>
                             <p>in accounting services</p>
@@ -136,7 +136,7 @@
                         <h3>Tailored Solutions</h3>
                     </div>
                 </div>
-
+                
                 <div class="we-help-box wow fadeInUp" data-wow-delay="0.25s">
                     <div class="icon-box">
                         <i class="fa fa-line-chart"></i>
@@ -145,7 +145,7 @@
                         <h3>Business Oriented Solutions</h3>
                     </div>
                 </div>
-
+                
                 <div class="we-help-box wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
                         <i class="fa fa-check"></i>
@@ -154,10 +154,10 @@
                         <h3>Fixed Price Guarenteed</h3>
                     </div>
                 </div>
-
+                
                 <div class="we-help-box wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
-                        <i class="fa fa-smile"></i>
+                        <i class="fa fa-handshake"></i>
                     </div>
                     <div class="we-help-title">
                         <h3>100% Customer Satisfaction</h3>
@@ -174,32 +174,38 @@
     <div class="container">
         <div class="customer-Benefit">
             <div class="row align-items-center">
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <div class="customer-benefit-image">
                         <figure class="image-anime reveal">
                             <img src="{{ asset('images/accounting3.jpg') }}" alt="">
                         </figure>
                     </div>
                 </div>
-                <div class="col-md-7">
-                    <div class="customer-Benefit-content wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-md-6">
+                    <div class="services-list wow fadeInUp" data-wow-delay="0.5s">
                         <h3>Our Services Includes</h3>
                         <p>We will take the time to develop a thorough understanding of your business, and will manage to achieve your goals through our specialized team of Accountants in London and our wide range of comprehensive consultancy and accounting services.</p>
                         <div class="row">
-                            <div class="col-md-6">
-                                <ul>
-                                    <li>Annual Accounts</li>
-                                    <li>Bookkeeping</li>
-                                    <li>vat-service</li>
-                                    <li>Inheritance TAX</li>
-                                </ul>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="wow fadeInUp mt-4" data-wow-delay="0.5s">
+                                    <ul>
+                                        <li><a href="{{ route('view.annual.accounts') }}"><i class="fa fa-wallet me-2"></i>Annual Accounts</a></li>
+                                        <li><a href="{{ route('view.book.keeping') }}"><i class="fa fa-list-check me-2"></i>Bookkeeping</a></li>
+                                        <li><a href="{{ route('view.vat.services') }}"><i class="fa fa-percent me-2"></i>Vat Service</a></li>
+                                        <li><a href="{{ route('view.inheritance.tax') }}"><i class="fa fa-child-reaching me-2"></i>Inheritance TAX</a></li>
+                                    </ul>
+                                </div>
+                                
                             </div>
-                            <div class="col-md-6">
-                                <ul>
-                                    <li>capital-gains-tax</li>
-                                    <li>Corporate tax planning</li>
-                                    <li>Business Planning</li>
-                                </ul>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="wow fadeInUp mt-4" data-wow-delay="0.5s">
+                                    <ul>
+                                        <li><a href="{{ route('view.capital.gains.tax') }}"><i class="fa fa-money-bill-trend-up me-2"></i>Capital Tax Gains</a></li>
+                                        <li><a href="{{ route('view.corporate.tax.planning') }}"><i class="fa fa-building me-2"></i>Corporate tax planning</a></li>
+                                        <li><a href="{{ route('view.cashflow.forecasts') }}"><i class="fa fa-money-bill-transfer me-2"></i>Cashflow Overcasts</a></li>
+                                        <li><a href="{{ route('view.wealth.management') }}"><i class="fa fa-coins me-2"></i>Wealth Managament</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -301,13 +307,13 @@
                             <p>Years in Business</p>
                         </div>
                     </div>
-
+                    
                     <div class="counter-box counter-image wow fadeInUp" data-wow-delay="0.25s">
                         <figure class="image-anime">
                             <img src="{{ asset('assets/images/counter-img-1.jpg') }}" alt="">
                         </figure>
                     </div>
-
+                    
                     <div class="counter-box wow fadeInUp" data-wow-delay="0.5s">
                         <div class="counter-content">
                             <h3><span class="counter">300</span>+</h3>
@@ -315,28 +321,28 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="state-image-counter-2">
                     <div class="counter-box counter-image wow fadeInUp" data-wow-delay="0.75s">
                         <figure class="image-anime">
                             <img src="{{ asset('assets/images/counter-img-2.jpg') }}" alt="">
                         </figure>
                     </div>
-
+                    
                     <div class="counter-box wow fadeInUp" data-wow-delay="1s">
                         <div class="counter-content">
                             <h3><span class="counter">1000</span>+</h3>
                             <p>Overall Services</p>
                         </div>
                     </div>
-
+                    
                     <div class="counter-box counter-image wow fadeInUp" data-wow-delay="1.25s">
                         <figure class="image-anime">
                             <img src="{{ asset('assets/images/counter-img-3.jpg') }}" alt="">
                         </figure>
                     </div>
                 </div>
-
+                
             </div>
         </div>
     </div>
@@ -376,7 +382,7 @@
             <div class="col-lg-3">
                 <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="icon-box">
-                        <img src="{{ asset('assets/images/icon-why-choose-1.svg') }}" alt="">
+                        <i class="fa fa-wallet text-white fs-30" style="font-size: 22px"></i>
                     </div>
                     <div class="why-choose-body">
                         <h3>Annual Accounts</h3>
@@ -388,7 +394,7 @@
             <div class="col-lg-3">
                 <div class="why-choose-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
-                        <img src="{{ asset('assets/images/icon-why-choose-2.svg') }}" alt="">
+                        <i class="fa fa-list-check text-white fs-30" style="font-size: 22px"></i>
                     </div>
                     <div class="why-choose-body">
                         <h3>Book keping</h3>
@@ -400,7 +406,7 @@
             <div class="col-lg-3">
                 <div class="why-choose-item wow fadeInUp" data-wow-delay="0.75s">
                     <div class="icon-box">
-                        <img src="{{ asset('assets/images/icon-why-choose-3.svg') }}" alt="">
+                        <i class="fa fa-chalkboard-teacher text-white fs-30" style="font-size: 22px"></i>
                     </div>
                     <div class="why-choose-body">
                         <h3>Business Planning</h3>
@@ -411,7 +417,7 @@
             <div class="col-lg-3">
                 <div class="why-choose-item wow fadeInUp" data-wow-delay="0.75s">
                     <div class="icon-box">
-                        <img src="{{ asset('assets/images/icon-why-choose-2.svg') }}" alt="">
+                        <i class="fa fa-money-bill-trend-up text-white fs-30" style="font-size: 22px"></i>
                     </div>
                     <div class="why-choose-body">
                         <h3>Cashflow Forecasts</h3>
@@ -448,7 +454,7 @@
                         <h2><a href="{{ route('view.single.blog', $blog->slug) }}">{{ $blog->title }}</a></h2>                            
                         <p>{!! strip_tags(\Illuminate\Support\Str::limit($blog->body, 100, $end='...')) !!}</p>
                     </div>
-
+                    
                     <div class="post-item-footer">
                         <a href="{{ route('view.single.blog', $blog->slug) }}" class="btn-default">read more</a>
                     </div>

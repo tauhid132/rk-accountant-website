@@ -90,7 +90,7 @@
 </div>
 <!-- Page About Section End -->
 
-<!-- Why Choose Us Section Start -->
+{{-- <!-- Why Choose Us Section Start -->
 <div class="why-choose-us light-bg-section">
     <div class="container">
         <div class="row section-row align-items-center">
@@ -335,7 +335,7 @@
         </div>
     </div>
 </div>
-<!-- Client Testimonials End -->
+<!-- Client Testimonials End --> --}}
 
 
 @endsection
